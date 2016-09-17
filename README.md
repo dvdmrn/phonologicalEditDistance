@@ -3,9 +3,9 @@ This uses the mighty power of [Phonological Corpus Tools](http://phonologicalcor
 
 ###dependencies:
 To run this you must have:  
-    - [Python 3](https://www.python.org/download/releases/3.0/)  
-    - [Phonological Corpus Tools](http://phonologicalcorpustools.github.io/CorpusTools/)  
-    - [numpy](http://www.numpy.org/)  
+    * [Python 3](https://www.python.org/download/releases/3.0/)  
+    * [Phonological Corpus Tools](http://phonologicalcorpustools.github.io/CorpusTools/)  
+    * [numpy](http://www.numpy.org/)  
     
 ------------------------------------------------------------
 
@@ -18,9 +18,9 @@ Right now there's no pretty input or output methods because I'm lazy, but if you
 `phonoEditDistanceWITHINsubjects.py` compares a set of words to itself, and `phonoEditDistanceBETWEENsubjects.py` compares a set of words to another set of words.
 
 Using `phonoEditDistanceWITHINsubjects.py`:  
-    - Replace "myCorpus.csv" with the corpus of your choice. (Note: make sure it's [formatted properly](http://corpustools.readthedocs.io/en/latest/loading_corpora.html))  
-    - Open a terminal window and type `sudo python3 phonoEditDistanceWITHINsubjects.py`. (Note: may not need sudo, or to specify python3 if it's the only version you have installed).  
+    * Replace "myCorpus.csv" with the corpus of your choice. (Note: make sure it's [formatted properly](http://corpustools.readthedocs.io/en/latest/loading_corpora.html))  
+    * Open a terminal window and type `sudo python3 phonoEditDistanceWITHINsubjects.py`. (Note: may not need sudo, or to specify python3 if it's the only version you have installed).  
 
 Using `phonoEditDistanceWITHINsubjects.py`:  
-    - Replace "corpusA.csv" and "corpusB.csv" with the corpora you wish to compare.
-    - Open a terminal window and type `sudo python3 phonoEditDistanceBETWEENsubjects.py`. (Note: may not need sudo, or to specify python3 if it's the only version you have installed).
+    * Replace "corpusA.csv" and "corpusB.csv" with the corpora you wish to compare.
+    * Open a terminal window and type `sudo python3 phonoEditDistanceBETWEENsubjects.py`. (Note: may not need sudo, or to specify python3 if it's the only version you have installed).
