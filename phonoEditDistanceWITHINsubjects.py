@@ -13,12 +13,12 @@ import itertools
 phonoSimList = []
 
 
-#Load a corpus. replace 'dummy.csv' with the corpus of your choice.
+#Load a corpus. replace 'myCorpus.csv' with the corpus of your choice.
 #Ensure that the first 3 columns are headed by 'spelling','transcription', and 'frequency'.
 
 myCorpus = io.csv.load_corpus_csv(
-	"exampleCorpus", 
-	"dummy.csv",
+	"myCorpus", 
+	"myCorpus.csv",
 	",", 
 	".", 
 	annotation_types=None, 
