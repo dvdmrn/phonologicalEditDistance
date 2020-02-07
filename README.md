@@ -6,6 +6,8 @@ To run this you must have:
 * [Python 3](https://www.python.org/download/releases/3.0/)  
 * [Phonological Corpus Tools](http://phonologicalcorpustools.github.io/CorpusTools/)  
 * [numpy](http://www.numpy.org/)  
+
+#### Note that you *must* have PCT version 1.1.0 to run this, and supply your own feature matrix. Later versions of PCT crash with this code. Feel free to message me if you encounter difficulties.
     
 ------------------------------------------------------------
 
